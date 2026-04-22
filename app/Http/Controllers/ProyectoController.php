@@ -5,7 +5,8 @@ namespace App\Http\Controllers;
 use App\Models\Proyecto;
 use App\Models\Desarrollador;
 use Illuminate\Http\Request;
-use Gate;
+// use Gate;
+use Illuminate\Support\Facades\gate;
 
 class ProyectoController extends Controller
 {

@@ -6,8 +6,10 @@ use App\Models\User;
 use App\Models\Rol;
 use Illuminate\Http\Request;
 Use Illuminate\Support\Facades\DB;
-use Gate;
-use Auth;
+// use Gate;
+use Illuminate\Support\Facades\gate;
+// use Auth;
+use Illuminate\Support\Facades\Auth;
 
 class UsuariosController extends Controller
 {

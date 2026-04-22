@@ -5,7 +5,8 @@ use Illuminate\Support\Facades\Storage;
 use App\Models\Desarrollador;
 use App\Models\Proyecto;
 use Illuminate\Http\Request;
-use Gate;
+use Illuminate\Support\Facades\gate;
+// use Gate;
 class DesarrolladorController extends Controller
 {
     public function __construct()

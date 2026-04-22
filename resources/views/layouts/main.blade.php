@@ -48,6 +48,12 @@
                 <form class="d-flex" role="search">
                     <input class="form-control me-2" type="search" placeholder="Buscar..." name="buscar" aria-label="buscar">
                     <button class="btn btn-secondary" type="submit">Buscar</button>
+                    <!-- <a href="{{ url()->current() }}" class="btn btn-outline-secondary ms-2">Limpiar</a> -->
+                     @if(request('buscar'))
+                        <a href="{{ url()->current() }}" class="btn btn-secondary ms-2">
+                            Limpiar
+                        </a>
+                    @endif
                 </form>
                 <ul class="navbar-nav text-light ms-3">
                     <li class="nav-item dropdown">
